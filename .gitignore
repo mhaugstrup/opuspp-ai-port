@@ -1,0 +1,10 @@
+# Downloaded by tools/fetch_deps.sh: libopus reference sources and the
+# benchmark music clip (see opuspp/tests/data/README.md)
+/opus-1.6.1/
+/opuspp/tests/data/*.s16le
+# Build trees
+/build*/
+/opuspp/build*/
+# Listening output from opuspp_encode / opuspp_decode
+*.wav
+*.opk
